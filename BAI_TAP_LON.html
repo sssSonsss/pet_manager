@@ -1,0 +1,1490 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="ProgId" content="Word.Document">
+    <meta name="Generator" content="Microsoft Word">
+    <meta name="Originator" content="Microsoft Word">
+    <title>Báo Cáo Bài Tập Lớn - Hệ Thống Quản Lý Trại Thú Cưng</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 2.5cm 2cm 2.5cm 2cm;
+        }
+        body {
+            font-family: "Times New Roman", serif;
+            font-size: 12pt;
+            line-height: 1.6;
+            text-align: justify;
+        }
+        h1 {
+            font-size: 18pt;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 20pt;
+            margin-bottom: 12pt;
+            page-break-after: avoid;
+        }
+        h2 {
+            font-size: 16pt;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 16pt;
+            margin-bottom: 10pt;
+            page-break-after: avoid;
+        }
+        h3 {
+            font-size: 14pt;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 14pt;
+            margin-bottom: 8pt;
+            page-break-after: avoid;
+        }
+        h4 {
+            font-size: 13pt;
+            font-weight: bold;
+            margin-top: 12pt;
+            margin-bottom: 6pt;
+            page-break-after: avoid;
+        }
+        h5 {
+            font-size: 12pt;
+            font-weight: bold;
+            margin-top: 10pt;
+            margin-bottom: 4pt;
+            page-break-after: avoid;
+        }
+        h6 {
+            font-size: 11pt;
+            font-weight: bold;
+            margin-top: 8pt;
+            margin-bottom: 4pt;
+            page-break-after: avoid;
+        }
+        p {
+            margin-top: 6pt;
+            margin-bottom: 6pt;
+            text-indent: 1.27cm;
+        }
+        ul, ol {
+            margin-top: 6pt;
+            margin-bottom: 6pt;
+            padding-left: 1.5cm;
+        }
+        li {
+            margin-top: 3pt;
+            margin-bottom: 3pt;
+        }
+        strong {
+            font-weight: bold;
+        }
+        em {
+            font-style: italic;
+        }
+        code {
+            font-family: "Courier New", monospace;
+            font-size: 10pt;
+            background-color: #f5f5f5;
+            padding: 2pt 4pt;
+        }
+        pre {
+            font-family: "Courier New", monospace;
+            font-size: 10pt;
+            background-color: #f5f5f5;
+            border: 1px solid #ddd;
+            padding: 10pt;
+            margin: 10pt 0;
+            white-space: pre-wrap;
+            page-break-inside: avoid;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #000;
+            margin: 20pt 0;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 10pt 0;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 5pt;
+            text-align: left;
+        }
+        th {
+            background-color: #f0f0f0;
+            font-weight: bold;
+        }
+        .no-indent {
+            text-indent: 0;
+        }
+        .center {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<h1>BÁO CÁO BÀI TẬP LỚN</h1>
+<h2>HỆ THỐNG QUẢN LÝ TRẠI THÚ CƯNG</h2>
+<h3>(Pet Farm Management System)</h3>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Môn học</strong>: Lập trình Giao diện</p>
+<p class="no-indent"><strong>Giảng viên hướng dẫn</strong>: _________________</p>
+<p class="no-indent"><strong>Sinh viên thực hiện</strong>: _________________</p>
+<p class="no-indent"><strong>Mã sinh viên</strong>: _________________</p>
+<p class="no-indent"><strong>Lớp</strong>: _________________</p>
+<p class="no-indent"><strong>Năm học</strong>: 2024 - 2025</p>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<h2>LỜI CẢM ƠN</h2>
+<p>&nbsp;</p>
+<p>Em xin chân thành cảm ơn thầy/cô _________________ đã tận tình hướng dẫn, chỉ bảo trong quá trình thực hiện bài tập lớn này.</p>
+<p>&nbsp;</p>
+<p>Em cũng xin cảm ơn các bạn trong lớp đã hỗ trợ, đóng góp ý kiến để em hoàn thành tốt bài tập.</p>
+<p>&nbsp;</p>
+<p>Cuối cùng, em xin cảm ơn gia đình đã tạo điều kiện và động viên em trong suốt quá trình học tập.</p>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<h2>MỤC LỤC</h2>
+<p>&nbsp;</p>
+<ol>
+<li>[Giới thiệu](#1-giới-thiệu)</li>
+<li>[Phân tích yêu cầu](#2-phân-tích-yêu-cầu)</li>
+<li>[Thiết kế hệ thống](#3-thiết-kế-hệ-thống)</li>
+<li>[Các tính năng của hệ thống](#4-các-tính-năng-của-hệ-thống)</li>
+<li>[Giao diện người dùng](#5-giao-diện-người-dùng)</li>
+<li>[Công nghệ sử dụng](#6-công-nghệ-sử-dụng)</li>
+<li>[Kết quả đạt được](#7-kết-quả-đạt-được)</li>
+<li>[Kết luận và hướng phát triển](#8-kết-luận-và-hướng-phát-triển)</li>
+<li>[Tài liệu tham khảo](#9-tài-liệu-tham-khảo)</li>
+</ol>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<h2>DANH MỤC HÌNH VẼ</h2>
+<p>&nbsp;</p>
+<ul>
+<li>Hình 1: Sơ đồ kiến trúc hệ thống</li>
+<li>Hình 2: Sơ đồ use case tổng quan</li>
+<li>Hình 3: Sơ đồ luồng dữ liệu</li>
+<li>Hình 4: Màn hình đăng nhập</li>
+<li>Hình 5: Màn hình quản lý khách hàng</li>
+<li>Hình 6: Màn hình quản lý thú cưng</li>
+<li>Hình 7: Màn hình quản lý nhân viên</li>
+<li>Hình 8: Màn hình quản lý dịch vụ</li>
+<li>Hình 9: Màn hình quản lý lịch chăm sóc</li>
+</ul>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<h2>1. GIỚI THIỆU</h2>
+<p>&nbsp;</p>
+<h3>1.1. Đặt vấn đề</h3>
+<p>&nbsp;</p>
+<p>Trong thời đại công nghệ hiện nay, việc quản lý thông tin bằng phương pháp thủ công đã trở nên lỗi thời và không hiệu quả. Đặc biệt đối với các trung tâm chăm sóc thú cưng, việc quản lý thông tin khách hàng, thú cưng, nhân viên và lịch chăm sóc một cách thủ công gây ra nhiều khó khăn:</p>
+<p>&nbsp;</p>
+<ul>
+<li>&lt;strong&gt;Mất thời gian&lt;/strong&gt;: Việc tìm kiếm thông tin trong sổ sách mất rất nhiều thời gian</li>
+<li>&lt;strong&gt;Dễ mất mát dữ liệu&lt;/strong&gt;: Sổ sách có thể bị mất, hỏng hoặc bị ướt</li>
+<li>&lt;strong&gt;Khó khăn trong việc cập nhật&lt;/strong&gt;: Mỗi lần thay đổi phải ghi chép lại, dễ nhầm lẫn</li>
+<li>&lt;strong&gt;Không có hệ thống tích điểm&lt;/strong&gt;: Khó khăn trong việc quản lý và khuyến khích khách hàng</li>
+<li>&lt;strong&gt;Thiếu tính bảo mật&lt;/strong&gt;: Thông tin dễ bị xem trộm hoặc thay đổi</li>
+</ul>
+<p>&nbsp;</p>
+<h3>1.2. Mục tiêu của đề tài</h3>
+<p>&nbsp;</p>
+<p>Xây dựng một hệ thống quản lý trại thú cưng với các mục tiêu:</p>
+<p>&nbsp;</p>
+<ol>
+<li>&lt;strong&gt;Số hóa toàn bộ thông tin&lt;/strong&gt;: Chuyển đổi từ quản lý thủ công sang quản lý bằng phần mềm</li>
+<li>&lt;strong&gt;Tăng hiệu quả quản lý&lt;/strong&gt;: Giảm thời gian xử lý, tăng độ chính xác</li>
+<li>&lt;strong&gt;Bảo mật thông tin&lt;/strong&gt;: Bảo vệ dữ liệu khách hàng và thú cưng</li>
+<li>&lt;strong&gt;Phân quyền rõ ràng&lt;/strong&gt;: Phân biệt quyền hạn giữa quản lý và nhân viên</li>
+<li>&lt;strong&gt;Dễ sử dụng&lt;/strong&gt;: Giao diện thân thiện, dễ học và sử dụng</li>
+</ol>
+<p>&nbsp;</p>
+<h3>1.3. Phạm vi nghiên cứu</h3>
+<p>&nbsp;</p>
+<p><strong>Phạm vi của đề tài:</strong></p>
+<ul>
+<li>Xây dựng ứng dụng desktop quản lý trại thú cưng</li>
+<li>Quản lý thông tin khách hàng, thú cưng, nhân viên</li>
+<li>Quản lý dịch vụ và lịch chăm sóc</li>
+<li>Hệ thống phân quyền ADMIN và STAFF</li>
+<li>Tìm kiếm và lọc dữ liệu</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Giới hạn của đề tài:</strong></p>
+<ul>
+<li>Chỉ phát triển cho hệ điều hành desktop (Windows, macOS, Linux)</li>
+<li>Không có tính năng thanh toán trực tuyến</li>
+<li>Không có ứng dụng di động</li>
+<li>Không có báo cáo và thống kê tự động</li>
+</ul>
+<p>&nbsp;</p>
+<h3>1.4. Phương pháp nghiên cứu</h3>
+<p>&nbsp;</p>
+<ul>
+<li>&lt;strong&gt;Nghiên cứu lý thuyết&lt;/strong&gt;: Tìm hiểu về Java Swing, SQLite, các design patterns</li>
+<li>&lt;strong&gt;Phân tích yêu cầu&lt;/strong&gt;: Xác định các chức năng cần thiết</li>
+<li>&lt;strong&gt;Thiết kế hệ thống&lt;/strong&gt;: Vẽ sơ đồ, thiết kế database</li>
+<li>&lt;strong&gt;Lập trình&lt;/strong&gt;: Sử dụng Java để xây dựng ứng dụng</li>
+<li>&lt;strong&gt;Kiểm thử&lt;/strong&gt;: Test các chức năng để đảm bảo hoạt động đúng</li>
+</ul>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<h2>2. PHÂN TÍCH YÊU CẦU</h2>
+<p>&nbsp;</p>
+<h3>2.1. Yêu cầu chức năng</h3>
+<p>&nbsp;</p>
+<h4>2.1.1. Quản lý khách hàng</h4>
+<ul>
+<li>Thêm, sửa, xóa thông tin khách hàng</li>
+<li>Tìm kiếm khách hàng theo tên, email, số điện thoại</li>
+<li>Lọc khách hàng theo điểm tích lũy</li>
+<li>Quản lý điểm tích lũy (thêm/trừ điểm)</li>
+<li>Xem danh sách thú cưng của khách hàng</li>
+</ul>
+<p>&nbsp;</p>
+<h4>2.1.2. Quản lý thú cưng</h4>
+<ul>
+<li>Thêm, sửa, xóa thông tin thú cưng</li>
+<li>Liên kết thú cưng với khách hàng (bắt buộc)</li>
+<li>Gán nhân viên phụ trách cho thú cưng</li>
+<li>Tìm kiếm thú cưng theo tên, loài, khách hàng, nhân viên</li>
+<li>Lọc thú cưng theo loài, sức khỏe, khách hàng</li>
+</ul>
+<p>&nbsp;</p>
+<h4>2.1.3. Quản lý nhân viên</h4>
+<ul>
+<li>Thêm, sửa, xóa thông tin nhân viên</li>
+<li>Tự động tạo tài khoản đăng nhập khi thêm nhân viên</li>
+<li>Đồng bộ thông tin nhân viên với tài khoản</li>
+<li>Tìm kiếm nhân viên theo tên, email</li>
+<li>Lọc nhân viên theo ca làm việc</li>
+</ul>
+<p>&nbsp;</p>
+<h4>2.1.4. Quản lý dịch vụ</h4>
+<ul>
+<li>Thêm, sửa, xóa dịch vụ</li>
+<li>Quản lý giá cả và thời gian thực hiện</li>
+<li>Kích hoạt/tạm dừng dịch vụ</li>
+<li>Tìm kiếm dịch vụ theo tên, mô tả</li>
+<li>Lọc dịch vụ theo loại, trạng thái, giá</li>
+</ul>
+<p>&nbsp;</p>
+<h4>2.1.5. Quản lý lịch chăm sóc</h4>
+<ul>
+<li>Thêm, sửa, xóa lịch chăm sóc</li>
+<li>Gán thú cưng và nhân viên cho lịch</li>
+<li>Lọc lịch theo thời gian (hôm nay, tuần này, tháng này, chọn ngày)</li>
+<li>Sắp xếp lịch theo ngày (tăng dần/giảm dần)</li>
+<li>Tìm kiếm lịch theo thú cưng, nhân viên, hoạt động</li>
+</ul>
+<p>&nbsp;</p>
+<h4>2.1.6. Xác thực và phân quyền</h4>
+<ul>
+<li>Đăng nhập bằng username và password</li>
+<li>Phân quyền ADMIN và STAFF</li>
+<li>ADMIN: Đầy đủ quyền (thêm, sửa, xóa)</li>
+<li>STAFF: Chỉ xem, không được thêm/sửa/xóa</li>
+<li>Đăng xuất</li>
+</ul>
+<p>&nbsp;</p>
+<h3>2.2. Yêu cầu phi chức năng</h3>
+<p>&nbsp;</p>
+<h4>2.2.1. Hiệu năng</h4>
+<ul>
+<li>Phản hồi trong vòng 2 giây cho các thao tác thông thường</li>
+<li>Tìm kiếm trả về kết quả trong vòng 1 giây</li>
+<li>Hỗ trợ ít nhất 1000 bản ghi mỗi bảng</li>
+</ul>
+<p>&nbsp;</p>
+<h4>2.2.2. Bảo mật</h4>
+<ul>
+<li>Mật khẩu được hash bằng SHA-256 với salt</li>
+<li>Ngăn chặn SQL injection</li>
+<li>Phân quyền rõ ràng</li>
+<li>Quản lý session an toàn</li>
+</ul>
+<p>&nbsp;</p>
+<h4>2.2.3. Khả năng sử dụng</h4>
+<ul>
+<li>Giao diện trực quan, dễ sử dụng</li>
+<li>Thông báo lỗi rõ ràng</li>
+<li>Hỗ trợ phím tắt (Enter để đăng nhập)</li>
+<li>Validation form rõ ràng</li>
+</ul>
+<p>&nbsp;</p>
+<h4>2.2.4. Tương thích</h4>
+<ul>
+<li>Chạy trên Windows, macOS, Linux</li>
+<li>Yêu cầu Java 17+</li>
+<li>Không cần kết nối internet</li>
+</ul>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<h2>3. THIẾT KẾ HỆ THỐNG</h2>
+<p>&nbsp;</p>
+<h3>3.1. Kiến trúc hệ thống</h3>
+<p>&nbsp;</p>
+<p>Hệ thống được xây dựng theo mô hình <strong>3-Layer Architecture</strong>:</p>
+<p>&nbsp;</p>
+<pre>┌─────────────────────────────────────┐
+│      Presentation Layer (View)      │
+│    - PetFarmApp (Main Window)      │
+│    - LoginDialog                   │
+│    - PetDialog, CustomerDialog, etc.│
+└──────────────┬──────────────────────┘
+               │
+┌──────────────▼──────────────────────┐
+│     Business Logic Layer (Service)  │
+│    - PetService                     │
+│    - CustomerService                │
+│    - CaretakerService, etc.          │
+└──────────────┬──────────────────────┘
+               │
+┌──────────────▼──────────────────────┐
+│   Data Access Layer (Repository)    │
+│    - PetRepository                  │
+│    - CustomerRepository             │
+│    - CaretakerRepository, etc.       │
+└──────────────┬──────────────────────┘
+               │
+┌──────────────▼──────────────────────┐
+│        Database Layer (SQLite)      │
+│         - petfarm.db                │
+└─────────────────────────────────────┘</pre>
+<p>&nbsp;</p>
+<p><strong>Ưu điểm của kiến trúc này:</strong></p>
+<ul>
+<li>Tách biệt rõ ràng giữa các layer</li>
+<li>Dễ bảo trì và mở rộng</li>
+<li>Có thể thay đổi database mà không ảnh hưởng đến business logic</li>
+<li>Dễ test từng layer riêng biệt</li>
+</ul>
+<p>&nbsp;</p>
+<h3>3.2. Thiết kế cơ sở dữ liệu</h3>
+<p>&nbsp;</p>
+<h4>3.2.1. Các bảng chính</h4>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Bảng <code>users</code></strong>: Lưu trữ thông tin tài khoản đăng nhập</p>
+<ul>
+<li>`id`: ID tài khoản (Primary Key)</li>
+<li>`username`: Tên đăng nhập (Unique, Not Null)</li>
+<li>`password_hash`: Mật khẩu đã hash (Not Null)</li>
+<li>`salt`: Salt để hash mật khẩu (Not Null)</li>
+<li>`role`: Vai trò (ADMIN hoặc STAFF)</li>
+<li>`name`: Tên người dùng</li>
+<li>`email`: Email</li>
+<li>`created_at`: Ngày tạo</li>
+</ul>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Bảng <code>customers</code></strong>: Lưu trữ thông tin khách hàng</p>
+<ul>
+<li>`id`: ID khách hàng (Primary Key)</li>
+<li>`name`: Tên khách hàng (Not Null)</li>
+<li>`phone`: Số điện thoại</li>
+<li>`email`: Email</li>
+<li>`address`: Địa chỉ</li>
+<li>`loyalty_points`: Điểm tích lũy (Default: 0)</li>
+<li>`registration_date`: Ngày đăng ký (Default: CURRENT_DATE)</li>
+</ul>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Bảng <code>caretakers</code></strong>: Lưu trữ thông tin nhân viên</p>
+<ul>
+<li>`id`: ID nhân viên (Primary Key)</li>
+<li>`name`: Tên nhân viên (Not Null)</li>
+<li>`email`: Email</li>
+<li>`date_of_birth`: Ngày sinh</li>
+<li>`shift`: Ca làm việc</li>
+<li>`user_id`: ID tài khoản liên kết (Foreign Key → users.id)</li>
+</ul>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Bảng <code>pets</code></strong>: Lưu trữ thông tin thú cưng</p>
+<ul>
+<li>`id`: ID thú cưng (Primary Key)</li>
+<li>`name`: Tên thú cưng (Not Null)</li>
+<li>`species`: Loài</li>
+<li>`age`: Tuổi</li>
+<li>`health_status`: Tình trạng sức khỏe</li>
+<li>`intake_date`: Ngày nhập</li>
+<li>`diet`: Khẩu phần</li>
+<li>`customer_id`: ID khách hàng (Foreign Key → customers.id)</li>
+<li>`caretaker_id`: ID nhân viên phụ trách (Foreign Key → caretakers.id)</li>
+</ul>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Bảng <code>services</code></strong>: Lưu trữ thông tin dịch vụ</p>
+<ul>
+<li>`id`: ID dịch vụ (Primary Key)</li>
+<li>`name`: Tên dịch vụ (Not Null)</li>
+<li>`description`: Mô tả</li>
+<li>`price`: Giá (Not Null)</li>
+<li>`duration_minutes`: Thời gian (phút)</li>
+<li>`category`: Loại dịch vụ</li>
+<li>`is_active`: Trạng thái (1 = hoạt động, 0 = tạm dừng)</li>
+</ul>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Bảng <code>care_schedule</code></strong>: Lưu trữ lịch chăm sóc</p>
+<ul>
+<li>`id`: ID lịch chăm sóc (Primary Key)</li>
+<li>`pet_id`: ID thú cưng (Foreign Key → pets.id, Not Null)</li>
+<li>`caretaker_id`: ID nhân viên (Foreign Key → caretakers.id, Not Null)</li>
+<li>`activity`: Hoạt động (Not Null)</li>
+<li>`schedule_date`: Ngày thực hiện (Not Null)</li>
+<li>`notes`: Ghi chú</li>
+</ul>
+<p>&nbsp;</p>
+<h4>3.2.2. Quan hệ giữa các bảng</h4>
+<p>&nbsp;</p>
+<pre>users (1) ──── (1) caretakers
+                │
+                │ (1)
+                │
+                ▼
+            pets (N)
+                │
+                │ (N)
+                │
+                ▼
+        care_schedule (N)
+
+customers (1) ──── (N) pets</pre>
+<p>&nbsp;</p>
+<h3>3.3. Design Patterns sử dụng</h3>
+<p>&nbsp;</p>
+<ol>
+<li>&lt;strong&gt;Repository Pattern&lt;/strong&gt;: Tách biệt logic truy cập dữ liệu</li>
+<li>&lt;strong&gt;Service Pattern&lt;/strong&gt;: Tách biệt business logic</li>
+<li>&lt;strong&gt;Singleton Pattern&lt;/strong&gt;: AuthContext, SQLiteConnectionManager</li>
+<li>&lt;strong&gt;DAO Pattern&lt;/strong&gt;: Repository classes</li>
+<li>&lt;strong&gt;MVC Pattern&lt;/strong&gt;: Model-View-Controller trong Swing</li>
+</ol>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<h2>4. CÁC TÍNH NĂNG CỦA HỆ THỐNG</h2>
+<p>&nbsp;</p>
+<h3>4.1. Tính năng đăng nhập và phân quyền</h3>
+<p>&nbsp;</p>
+<h4>4.1.1. Đăng nhập hệ thống</h4>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Mô tả</strong>: Người dùng phải đăng nhập bằng username và password trước khi sử dụng hệ thống.</p>
+<p>&nbsp;</p>
+<p><strong>Các bước thực hiện</strong>:</p>
+<ol>
+<li>Khởi động ứng dụng, màn hình đăng nhập hiển thị</li>
+<li>Nhập username và password</li>
+<li>Click nút &quot;Đăng nhập&quot; hoặc nhấn Enter</li>
+<li>Hệ thống xác thực thông tin</li>
+<li>Nếu đúng, chuyển sang màn hình chính</li>
+<li>Nếu sai, hiển thị thông báo lỗi</li>
+</ol>
+<p>&nbsp;</p>
+<p><strong>Tài khoản mặc định</strong>:</p>
+<ul>
+<li>Username: `admin`</li>
+<li>Password: `admin123`</li>
+<li>Vai trò: ADMIN</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Bảo mật</strong>:</p>
+<ul>
+<li>Mật khẩu được hash bằng SHA-256 với salt</li>
+<li>Mỗi mật khẩu có salt riêng</li>
+<li>Không lưu mật khẩu dạng plaintext</li>
+</ul>
+<p>&nbsp;</p>
+<h4>4.1.2. Phân quyền người dùng</h4>
+<p>&nbsp;</p>
+<p><strong>ADMIN (Quản trị viên)</strong>:</p>
+<ul>
+<li>✅ Xem tất cả dữ liệu</li>
+<li>✅ Thêm, sửa, xóa tất cả dữ liệu</li>
+<li>✅ Tạo tài khoản nhân viên mới</li>
+<li>✅ Quản lý toàn bộ hệ thống</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>STAFF (Nhân viên)</strong>:</p>
+<ul>
+<li>✅ Xem tất cả dữ liệu</li>
+<li>❌ KHÔNG được thêm dữ liệu</li>
+<li>❌ KHÔNG được sửa dữ liệu</li>
+<li>❌ KHÔNG được xóa dữ liệu</li>
+<li>❌ KHÔNG được tạo tài khoản mới</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Cách thực hiện</strong>:</p>
+<ul>
+<li>Các nút &quot;Thêm&quot;, &quot;Cập nhật&quot;, &quot;Xóa&quot; bị vô hiệu hóa cho STAFF</li>
+<li>Khi STAFF click các nút này, hiển thị thông báo &quot;Chỉ ADMIN mới được phép...&quot;</li>
+<li>Menu bar hiển thị vai trò và tên người dùng</li>
+</ul>
+<p>&nbsp;</p>
+<h3>4.2. Tính năng quản lý khách hàng</h3>
+<p>&nbsp;</p>
+<h4>4.2.1. Thêm khách hàng mới</h4>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Mô tả</strong>: ADMIN có thể thêm khách hàng mới vào hệ thống.</p>
+<p>&nbsp;</p>
+<p><strong>Thông tin cần nhập</strong>:</p>
+<ul>
+<li>&lt;strong&gt;Tên&lt;/strong&gt; (bắt buộc): Họ và tên khách hàng</li>
+<li>&lt;strong&gt;Số điện thoại&lt;/strong&gt;: Số điện thoại liên hệ</li>
+<li>&lt;strong&gt;Email&lt;/strong&gt;: Email liên hệ</li>
+<li>&lt;strong&gt;Địa chỉ&lt;/strong&gt;: Địa chỉ khách hàng</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Tự động gán</strong>:</p>
+<ul>
+<li>&lt;strong&gt;Điểm tích lũy&lt;/strong&gt;: Mặc định = 0</li>
+<li>&lt;strong&gt;Ngày đăng ký&lt;/strong&gt;: Mặc định = ngày hiện tại</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Quy trình</strong>:</p>
+<ol>
+<li>Chọn tab &quot;👤 Khách hàng&quot;</li>
+<li>Click nút &quot;Thêm&quot;</li>
+<li>Dialog &quot;Thêm khách hàng&quot; hiển thị</li>
+<li>Nhập thông tin (tên là bắt buộc)</li>
+<li>Click &quot;Lưu&quot;</li>
+<li>Hệ thống kiểm tra dữ liệu hợp lệ</li>
+<li>Lưu vào database</li>
+<li>Hiển thị thông báo thành công</li>
+<li>Cập nhật danh sách khách hàng</li>
+</ol>
+<p>&nbsp;</p>
+<p><strong>Validation</strong>:</p>
+<ul>
+<li>Tên không được để trống</li>
+<li>Email phải đúng định dạng (nếu có)</li>
+<li>Hiển thị thông báo lỗi rõ ràng</li>
+</ul>
+<p>&nbsp;</p>
+<h4>4.2.2. Cập nhật thông tin khách hàng</h4>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Mô tả</strong>: ADMIN có thể sửa đổi thông tin khách hàng.</p>
+<p>&nbsp;</p>
+<p><strong>Thông tin có thể sửa</strong>:</p>
+<ul>
+<li>Tên, số điện thoại, email, địa chỉ</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Thông tin không thể sửa</strong>:</p>
+<ul>
+<li>Điểm tích lũy (phải dùng chức năng thêm/trừ điểm)</li>
+<li>Ngày đăng ký (giữ nguyên)</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Quy trình</strong>:</p>
+<ol>
+<li>Chọn khách hàng trong bảng</li>
+<li>Click nút &quot;Cập nhật&quot;</li>
+<li>Dialog hiển thị với thông tin đã điền sẵn</li>
+<li>Sửa thông tin cần thiết</li>
+<li>Click &quot;Lưu&quot;</li>
+<li>Cập nhật database</li>
+<li>Hiển thị thông báo thành công</li>
+</ol>
+<p>&nbsp;</p>
+<h4>4.2.3. Xóa khách hàng</h4>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Mô tả</strong>: ADMIN có thể xóa khách hàng khỏi hệ thống.</p>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Lưu ý</strong>: Khi xóa khách hàng, các thú cưng liên kết sẽ không bị xóa nhưng sẽ mất liên kết (customer_id = NULL).</p>
+<p>&nbsp;</p>
+<p><strong>Quy trình</strong>:</p>
+<ol>
+<li>Chọn khách hàng trong bảng</li>
+<li>Click nút &quot;Xóa&quot;</li>
+<li>Hệ thống hiển thị dialog xác nhận</li>
+<li>Xác nhận xóa</li>
+<li>Xóa khỏi database</li>
+<li>Hiển thị thông báo thành công</li>
+<li>Cập nhật danh sách</li>
+</ol>
+<p>&nbsp;</p>
+<h4>4.2.4. Tìm kiếm và lọc khách hàng</h4>
+<p>&nbsp;</p>
+<p><strong>Tìm kiếm</strong>:</p>
+<ul>
+<li>Tìm theo: Tên, email, số điện thoại</li>
+<li>Không phân biệt hoa thường</li>
+<li>Kết quả hiển thị ngay lập tức khi nhập</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Lọc theo điểm tích lũy</strong>:</p>
+<ul>
+<li>Tất cả</li>
+<li>0 điểm</li>
+<li>1-100 điểm</li>
+<li>101-500 điểm</li>
+<li>501-1000 điểm</li>
+<li>Trên 1000 điểm</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Cách sử dụng</strong>:</p>
+<ol>
+<li>Nhập từ khóa vào ô tìm kiếm</li>
+<li>Chọn bộ lọc từ dropdown (nếu cần)</li>
+<li>Kết quả được lọc và hiển thị ngay</li>
+<li>Click &quot;Xóa bộ lọc&quot; để reset</li>
+</ol>
+<p>&nbsp;</p>
+<h4>4.2.5. Quản lý điểm tích lũy</h4>
+<p>&nbsp;</p>
+<p><strong>Thêm điểm</strong>:</p>
+<ol>
+<li>Chọn khách hàng</li>
+<li>Click nút &quot;Thêm điểm&quot;</li>
+<li>Nhập số điểm cần thêm (phải &gt; 0)</li>
+<li>Click &quot;OK&quot;</li>
+<li>Điểm được cập nhật ngay lập tức</li>
+</ol>
+<p>&nbsp;</p>
+<p><strong>Trừ điểm</strong>:</p>
+<ol>
+<li>Chọn khách hàng</li>
+<li>Click nút &quot;Trừ điểm&quot;</li>
+<li>Nhập số điểm cần trừ (phải &gt; 0)</li>
+<li>Click &quot;OK&quot;</li>
+<li>Điểm được trừ (không được âm)</li>
+</ol>
+<p>&nbsp;</p>
+<h4>4.2.6. Xem thú cưng của khách hàng</h4>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Mô tả</strong>: Xem danh sách tất cả thú cưng thuộc về một khách hàng.</p>
+<p>&nbsp;</p>
+<p><strong>Quy trình</strong>:</p>
+<ol>
+<li>Chọn khách hàng trong bảng</li>
+<li>Click nút &quot;Xem thú cưng&quot;</li>
+<li>Hệ thống hiển thị dialog với danh sách thú cưng</li>
+<li>Hiển thị: Tên, loài, tuổi của từng thú cưng</li>
+<li>Nếu khách hàng chưa có thú cưng, hiển thị thông báo</li>
+</ol>
+<p>&nbsp;</p>
+<h3>4.3. Tính năng quản lý thú cưng</h3>
+<p>&nbsp;</p>
+<h4>4.3.1. Thêm thú cưng mới</h4>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Mô tả</strong>: ADMIN có thể thêm thú cưng mới và liên kết với khách hàng.</p>
+<p>&nbsp;</p>
+<p><strong>Thông tin cần nhập</strong>:</p>
+<ul>
+<li>&lt;strong&gt;Tên&lt;/strong&gt; (bắt buộc): Tên thú cưng</li>
+<li>&lt;strong&gt;Loài&lt;/strong&gt;: Loài thú cưng (Chó, Mèo, v.v.)</li>
+<li>&lt;strong&gt;Tuổi&lt;/strong&gt;: Tuổi của thú cưng</li>
+<li>&lt;strong&gt;Sức khỏe&lt;/strong&gt;: Tình trạng sức khỏe hiện tại</li>
+<li>&lt;strong&gt;Ngày nhập&lt;/strong&gt;: Ngày thú cưng được đưa vào trung tâm</li>
+<li>&lt;strong&gt;Khẩu phần&lt;/strong&gt;: Chế độ ăn uống</li>
+<li>&lt;strong&gt;Khách hàng&lt;/strong&gt; (bắt buộc): Chọn từ dropdown danh sách khách hàng</li>
+<li>&lt;strong&gt;Nhân viên phụ trách&lt;/strong&gt; (tùy chọn): Chọn từ dropdown danh sách nhân viên</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Quy trình</strong>:</p>
+<ol>
+<li>Chọn tab &quot;🐾 Quản lý thú cưng&quot;</li>
+<li>Click nút &quot;Thêm&quot;</li>
+<li>Dialog &quot;Thêm thú cưng&quot; hiển thị</li>
+<li>Chọn khách hàng từ dropdown (bắt buộc)</li>
+<li>Nhập các thông tin khác</li>
+<li>Chọn nhân viên phụ trách (nếu có)</li>
+<li>Click &quot;Lưu&quot;</li>
+<li>Hệ thống kiểm tra dữ liệu</li>
+<li>Lưu vào database</li>
+<li>Hiển thị thông báo thành công</li>
+</ol>
+<p>&nbsp;</p>
+<p><strong>Validation</strong>:</p>
+<ul>
+<li>Tên không được để trống</li>
+<li>Phải chọn khách hàng (bắt buộc)</li>
+<li>Ngày nhập phải đúng định dạng yyyy-MM-dd</li>
+</ul>
+<p>&nbsp;</p>
+<h4>4.3.2. Cập nhật thông tin thú cưng</h4>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Mô tả</strong>: ADMIN có thể sửa đổi thông tin thú cưng.</p>
+<p>&nbsp;</p>
+<p><strong>Thông tin có thể sửa</strong>:</p>
+<ul>
+<li>Tất cả thông tin (tên, loài, tuổi, sức khỏe, ngày nhập, khẩu phần)</li>
+<li>Có thể thay đổi khách hàng sở hữu</li>
+<li>Có thể thay đổi nhân viên phụ trách</li>
+</ul>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Quy trình</strong>: Tương tự như thêm, nhưng form đã được điền sẵn thông tin</p>
+<p>&nbsp;</p>
+<h4>4.3.3. Xóa thú cưng</h4>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Mô tả</strong>: ADMIN có thể xóa thú cưng khỏi hệ thống.</p>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Lưu ý</strong>: Khi xóa thú cưng, các lịch chăm sóc liên kết cũng sẽ bị xóa (CASCADE DELETE).</p>
+<p>&nbsp;</p>
+<p><strong>Quy trình</strong>:</p>
+<ol>
+<li>Chọn thú cưng trong bảng</li>
+<li>Click nút &quot;Xóa&quot;</li>
+<li>Xác nhận xóa</li>
+<li>Xóa khỏi database</li>
+<li>Cập nhật danh sách</li>
+</ol>
+<p>&nbsp;</p>
+<h4>4.3.4. Tìm kiếm và lọc thú cưng</h4>
+<p>&nbsp;</p>
+<p><strong>Tìm kiếm</strong>:</p>
+<ul>
+<li>Tìm theo: Tên, loài, tên khách hàng, tên nhân viên</li>
+<li>Không phân biệt hoa thường</li>
+<li>Kết quả hiển thị ngay lập tức</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Lọc</strong>:</p>
+<ul>
+<li>&lt;strong&gt;Theo loài&lt;/strong&gt;: Dropdown tự động cập nhật từ dữ liệu hiện có</li>
+<li>&lt;strong&gt;Theo sức khỏe&lt;/strong&gt;: Dropdown tự động cập nhật từ dữ liệu hiện có</li>
+<li>&lt;strong&gt;Theo khách hàng&lt;/strong&gt;: Dropdown hiển thị danh sách khách hàng có thú cưng</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Cách sử dụng</strong>:</p>
+<ol>
+<li>Nhập từ khóa vào ô tìm kiếm</li>
+<li>Chọn bộ lọc từ các dropdown</li>
+<li>Kết quả được lọc và hiển thị</li>
+<li>Click &quot;Xóa bộ lọc&quot; để reset</li>
+</ol>
+<p>&nbsp;</p>
+<h3>4.4. Tính năng quản lý nhân viên</h3>
+<p>&nbsp;</p>
+<h4>4.4.1. Thêm nhân viên mới</h4>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Mô tả</strong>: ADMIN có thể thêm nhân viên mới và tự động tạo tài khoản đăng nhập.</p>
+<p>&nbsp;</p>
+<p><strong>Thông tin cần nhập</strong>:</p>
+<ul>
+<li>&lt;strong&gt;Thông tin nhân viên&lt;/strong&gt;:</li>
+<li>Tên (bắt buộc)</li>
+<li>Email</li>
+<li>Ngày sinh</li>
+<li>Ca làm việc</li>
+<li>&lt;strong&gt;Thông tin đăng nhập&lt;/strong&gt;:</li>
+<li>Username (bắt buộc, duy nhất, không thể sửa sau)</li>
+<li>Password (bắt buộc, tối thiểu 4 ký tự)</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Quy trình</strong>:</p>
+<ol>
+<li>Chọn tab &quot;👥 Nhân viên chăm sóc&quot;</li>
+<li>Click nút &quot;Thêm&quot;</li>
+<li>Dialog &quot;Thêm nhân viên&quot; hiển thị</li>
+<li>Nhập thông tin nhân viên</li>
+<li>Nhập username và password</li>
+<li>Click &quot;Lưu&quot;</li>
+<li>Hệ thống kiểm tra username chưa tồn tại</li>
+<li>Tạo tài khoản STAFF với username và password</li>
+<li>Tạo bản ghi nhân viên và liên kết với tài khoản</li>
+<li>Hiển thị thông báo thành công với username và password</li>
+</ol>
+<p>&nbsp;</p>
+<p><strong>Đặc điểm</strong>:</p>
+<ul>
+<li>Username phải duy nhất trong hệ thống</li>
+<li>Nếu username đã tồn tại, hiển thị lỗi và yêu cầu nhập lại</li>
+<li>Tài khoản được tạo tự động, nhân viên có thể đăng nhập ngay</li>
+</ul>
+<p>&nbsp;</p>
+<h4>4.4.2. Cập nhật thông tin nhân viên</h4>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Mô tả</strong>: ADMIN có thể sửa đổi thông tin nhân viên.</p>
+<p>&nbsp;</p>
+<p><strong>Thông tin có thể sửa</strong>:</p>
+<ul>
+<li>Tên, email, ngày sinh, ca làm việc</li>
+<li>Mật khẩu (tùy chọn, để trống nếu không muốn đổi)</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Thông tin không thể sửa</strong>:</p>
+<ul>
+<li>Username (không thể thay đổi sau khi tạo)</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Quy trình</strong>:</p>
+<ol>
+<li>Chọn nhân viên trong bảng</li>
+<li>Click nút &quot;Cập nhật&quot;</li>
+<li>Dialog hiển thị với thông tin đã điền sẵn</li>
+<li>Username hiển thị nhưng bị disable (không thể sửa)</li>
+<li>Sửa các thông tin khác</li>
+<li>Nhập mật khẩu mới (nếu muốn đổi, để trống nếu không)</li>
+<li>Click &quot;Lưu&quot;</li>
+<li>Cập nhật thông tin nhân viên</li>
+<li>Nếu có mật khẩu mới, cập nhật mật khẩu tài khoản</li>
+<li>Đồng bộ thông tin (tên, email) với tài khoản đăng nhập</li>
+</ol>
+<p>&nbsp;</p>
+<h4>4.4.3. Xóa nhân viên</h4>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Mô tả</strong>: ADMIN có thể xóa nhân viên và tài khoản liên kết.</p>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Lưu ý</strong>: Khi xóa nhân viên, tài khoản STAFF liên kết cũng sẽ bị xóa (CASCADE DELETE).</p>
+<p>&nbsp;</p>
+<p><strong>Quy trình</strong>:</p>
+<ol>
+<li>Chọn nhân viên trong bảng</li>
+<li>Click nút &quot;Xóa&quot;</li>
+<li>Hệ thống hiển thị dialog xác nhận với cảnh báo</li>
+<li>Xác nhận xóa</li>
+<li>Xóa nhân viên và tài khoản liên kết</li>
+<li>Hiển thị thông báo thành công</li>
+</ol>
+<p>&nbsp;</p>
+<h4>4.4.4. Tìm kiếm và lọc nhân viên</h4>
+<p>&nbsp;</p>
+<p><strong>Tìm kiếm</strong>:</p>
+<ul>
+<li>Tìm theo: Tên, email</li>
+<li>Không phân biệt hoa thường</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Lọc</strong>:</p>
+<ul>
+<li>&lt;strong&gt;Theo ca làm việc&lt;/strong&gt;: Dropdown tự động cập nhật từ dữ liệu hiện có</li>
+</ul>
+<p>&nbsp;</p>
+<h3>4.5. Tính năng quản lý dịch vụ</h3>
+<p>&nbsp;</p>
+<h4>4.5.1. Thêm dịch vụ mới</h4>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Mô tả</strong>: ADMIN có thể thêm dịch vụ mới vào hệ thống.</p>
+<p>&nbsp;</p>
+<p><strong>Thông tin cần nhập</strong>:</p>
+<ul>
+<li>&lt;strong&gt;Tên dịch vụ&lt;/strong&gt; (bắt buộc): Tên dịch vụ (ví dụ: Tắm rửa, Grooming, Khám bệnh)</li>
+<li>&lt;strong&gt;Mô tả&lt;/strong&gt;: Mô tả chi tiết dịch vụ</li>
+<li>&lt;strong&gt;Giá&lt;/strong&gt; (bắt buộc): Giá dịch vụ (VNĐ), phải là số dương</li>
+<li>&lt;strong&gt;Thời gian&lt;/strong&gt;: Thời gian thực hiện (phút)</li>
+<li>&lt;strong&gt;Loại dịch vụ&lt;/strong&gt;: Phân loại (GROOMING, HEALTH, SPA, BOARDING, etc.)</li>
+<li>&lt;strong&gt;Trạng thái&lt;/strong&gt;: Hoạt động hoặc Tạm dừng (mặc định: Hoạt động)</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Quy trình</strong>:</p>
+<ol>
+<li>Chọn tab &quot;🛎️ Dịch vụ&quot;</li>
+<li>Click nút &quot;Thêm&quot;</li>
+<li>Dialog &quot;Thêm dịch vụ&quot; hiển thị</li>
+<li>Nhập thông tin dịch vụ</li>
+<li>Click &quot;Lưu&quot;</li>
+<li>Hệ thống kiểm tra dữ liệu (tên và giá bắt buộc)</li>
+<li>Lưu vào database</li>
+<li>Hiển thị thông báo thành công</li>
+</ol>
+<p>&nbsp;</p>
+<h4>4.5.2. Cập nhật dịch vụ</h4>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Mô tả</strong>: ADMIN có thể sửa đổi thông tin dịch vụ, bao gồm giá cả và trạng thái.</p>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Quy trình</strong>: Tương tự như thêm, nhưng form đã được điền sẵn</p>
+<p>&nbsp;</p>
+<h4>4.5.3. Xóa dịch vụ</h4>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Mô tả</strong>: ADMIN có thể xóa dịch vụ khỏi hệ thống.</p>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Quy trình</strong>: Chọn dịch vụ → Click &quot;Xóa&quot; → Xác nhận → Xóa</p>
+<p>&nbsp;</p>
+<h4>4.5.4. Tìm kiếm và lọc dịch vụ</h4>
+<p>&nbsp;</p>
+<p><strong>Tìm kiếm</strong>:</p>
+<ul>
+<li>Tìm theo: Tên dịch vụ, mô tả</li>
+<li>Không phân biệt hoa thường</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Lọc</strong>:</p>
+<ul>
+<li>&lt;strong&gt;Theo loại&lt;/strong&gt;: Dropdown tự động cập nhật từ dữ liệu</li>
+<li>&lt;strong&gt;Theo trạng thái&lt;/strong&gt;: Hoạt động / Tạm dừng</li>
+<li>&lt;strong&gt;Theo giá&lt;/strong&gt;:</li>
+<li>Dưới 100.000 VNĐ</li>
+<li>100.000 - 500.000 VNĐ</li>
+<li>500.000 - 1.000.000 VNĐ</li>
+<li>Trên 1.000.000 VNĐ</li>
+</ul>
+<p>&nbsp;</p>
+<h3>4.6. Tính năng quản lý lịch chăm sóc</h3>
+<p>&nbsp;</p>
+<h4>4.6.1. Thêm lịch chăm sóc</h4>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Mô tả</strong>: ADMIN có thể tạo lịch chăm sóc cho thú cưng.</p>
+<p>&nbsp;</p>
+<p><strong>Thông tin cần nhập</strong>:</p>
+<ul>
+<li>&lt;strong&gt;Thú cưng&lt;/strong&gt; (bắt buộc): Chọn từ dropdown danh sách thú cưng</li>
+<li>&lt;strong&gt;Nhân viên&lt;/strong&gt; (bắt buộc): Chọn từ dropdown danh sách nhân viên</li>
+<li>&lt;strong&gt;Hoạt động&lt;/strong&gt; (bắt buộc): Mô tả hoạt động chăm sóc</li>
+<li>&lt;strong&gt;Ngày&lt;/strong&gt; (bắt buộc): Ngày thực hiện (định dạng yyyy-MM-dd)</li>
+<li>&lt;strong&gt;Ghi chú&lt;/strong&gt; (tùy chọn): Ghi chú bổ sung</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Quy trình</strong>:</p>
+<ol>
+<li>Chọn tab &quot;📅 Lịch chăm sóc&quot;</li>
+<li>Click nút &quot;Thêm&quot;</li>
+<li>Dialog &quot;Thêm lịch chăm sóc&quot; hiển thị</li>
+<li>Chọn thú cưng từ dropdown</li>
+<li>Chọn nhân viên từ dropdown</li>
+<li>Nhập hoạt động</li>
+<li>Chọn ngày (có thể dùng date picker)</li>
+<li>Thêm ghi chú (nếu có)</li>
+<li>Click &quot;Lưu&quot;</li>
+<li>Hệ thống kiểm tra dữ liệu</li>
+<li>Lưu vào database</li>
+<li>Hiển thị thông báo thành công</li>
+</ol>
+<p>&nbsp;</p>
+<h4>4.6.2. Cập nhật lịch chăm sóc</h4>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Mô tả</strong>: ADMIN có thể sửa đổi lịch chăm sóc.</p>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Quy trình</strong>: Tương tự như thêm, nhưng form đã được điền sẵn</p>
+<p>&nbsp;</p>
+<h4>4.6.3. Xóa lịch chăm sóc</h4>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Mô tả</strong>: ADMIN có thể xóa lịch chăm sóc.</p>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Quy trình</strong>: Chọn lịch → Click &quot;Xóa&quot; → Xác nhận → Xóa</p>
+<p>&nbsp;</p>
+<h4>4.6.4. Lọc và sắp xếp lịch chăm sóc</h4>
+<p>&nbsp;</p>
+<p><strong>Lọc theo thời gian</strong>:</p>
+<ul>
+<li>&lt;strong&gt;Tất cả&lt;/strong&gt;: Hiển thị tất cả lịch</li>
+<li>&lt;strong&gt;Hôm nay&lt;/strong&gt;: Chỉ hiển thị lịch của ngày hiện tại</li>
+<li>&lt;strong&gt;Tuần này&lt;/strong&gt;: Hiển thị lịch từ thứ 2 đến chủ nhật của tuần hiện tại</li>
+<li>&lt;strong&gt;Tháng này&lt;/strong&gt;: Hiển thị lịch của tháng hiện tại</li>
+<li>&lt;strong&gt;Chọn ngày&lt;/strong&gt;: Nhập ngày cụ thể (yyyy-MM-dd)</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Sắp xếp</strong>:</p>
+<ul>
+<li>&lt;strong&gt;Ngày tăng dần&lt;/strong&gt;: Sắp xếp từ ngày cũ đến mới</li>
+<li>&lt;strong&gt;Ngày giảm dần&lt;/strong&gt;: Sắp xếp từ ngày mới đến cũ</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Tìm kiếm</strong>:</p>
+<ul>
+<li>Tìm theo: Tên thú cưng, tên nhân viên, hoạt động, ghi chú</li>
+<li>Không phân biệt hoa thường</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Cách sử dụng</strong>:</p>
+<ol>
+<li>Chọn bộ lọc thời gian từ dropdown</li>
+<li>Nếu chọn &quot;Chọn ngày&quot;, nhập ngày vào ô text</li>
+<li>Chọn cách sắp xếp</li>
+<li>Nhập từ khóa tìm kiếm (nếu cần)</li>
+<li>Kết quả được lọc và sắp xếp ngay lập tức</li>
+<li>Click &quot;Xóa bộ lọc&quot; để reset</li>
+</ol>
+<p>&nbsp;</p>
+<h3>4.7. Tính năng tìm kiếm và lọc tổng quát</h3>
+<p>&nbsp;</p>
+<h4>4.7.1. Tìm kiếm</h4>
+<p>&nbsp;</p>
+<p><strong>Đặc điểm chung</strong>:</p>
+<ul>
+<li>Tất cả các tab đều có thanh tìm kiếm</li>
+<li>Tìm kiếm không phân biệt hoa thường</li>
+<li>Kết quả hiển thị ngay lập tức khi nhập</li>
+<li>Có thể tìm kiếm trên nhiều trường cùng lúc</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Cách sử dụng</strong>:</p>
+<ol>
+<li>Nhập từ khóa vào ô tìm kiếm</li>
+<li>Nhấn Enter hoặc click nút &quot;🔍 Tìm&quot;</li>
+<li>Kết quả được lọc và hiển thị ngay</li>
+</ol>
+<p>&nbsp;</p>
+<h4>4.7.2. Lọc dữ liệu</h4>
+<p>&nbsp;</p>
+<p><strong>Đặc điểm</strong>:</p>
+<ul>
+<li>Mỗi tab có các bộ lọc phù hợp với dữ liệu</li>
+<li>Dropdown filter tự động cập nhật từ dữ liệu hiện có</li>
+<li>Có thể kết hợp nhiều bộ lọc cùng lúc</li>
+<li>Có thể kết hợp tìm kiếm và lọc</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Cách sử dụng</strong>:</p>
+<ol>
+<li>Chọn bộ lọc từ dropdown</li>
+<li>Kết quả được lọc ngay lập tức</li>
+<li>Có thể chọn nhiều bộ lọc cùng lúc</li>
+<li>Click &quot;Xóa bộ lọc&quot; để reset tất cả</li>
+</ol>
+<p>&nbsp;</p>
+<h4>4.7.3. Xóa bộ lọc</h4>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Chức năng</strong>: Reset tất cả bộ lọc và tìm kiếm về trạng thái ban đầu.</p>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Cách sử dụng</strong>: Click nút &quot;Xóa bộ lọc&quot; → Tất cả filter và search được reset</p>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<h2>5. GIAO DIỆN NGƯỜI DÙNG</h2>
+<p>&nbsp;</p>
+<h3>5.1. Màn hình đăng nhập</h3>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>Mô tả</strong>: Màn hình đầu tiên khi khởi động ứng dụng.</p>
+<p>&nbsp;</p>
+<p><strong>Các thành phần</strong>:</p>
+<ul>
+<li>Ô nhập Username</li>
+<li>Ô nhập Password (ẩn ký tự)</li>
+<li>Nút &quot;Đăng nhập&quot;</li>
+<li>Thông tin tài khoản mặc định (hiển thị để tham khảo)</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Tính năng</strong>:</p>
+<ul>
+<li>Hỗ trợ phím Enter để đăng nhập nhanh</li>
+<li>Validation: Kiểm tra username và password không được để trống</li>
+<li>Hiển thị thông báo lỗi rõ ràng nếu đăng nhập sai</li>
+</ul>
+<p>&nbsp;</p>
+<h3>5.2. Màn hình chính</h3>
+<p>&nbsp;</p>
+<p><strong>Cấu trúc</strong>:</p>
+<ul>
+<li>&lt;strong&gt;Menu Bar&lt;/strong&gt;:</li>
+<li>Menu &quot;Tài khoản&quot; → &quot;Đăng xuất&quot;</li>
+<li>Thông tin người dùng hiện tại (tên, vai trò) ở bên phải</li>
+<li>Màu sắc khác nhau cho ADMIN (xanh lá) và STAFF (xanh dương)</li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li>&lt;strong&gt;Tab Navigation&lt;/strong&gt;: 5 tab chính</li>
+</ul>
+<ol>
+<li>👤 Khách hàng</li>
+<li>🐾 Quản lý thú cưng</li>
+<li>👥 Nhân viên chăm sóc</li>
+<li>🛎️ Dịch vụ</li>
+<li>📅 Lịch chăm sóc</li>
+</ol>
+<p>&nbsp;</p>
+<ul>
+<li>&lt;strong&gt;Panel thông tin&lt;/strong&gt; (chỉ hiển thị cho STAFF):</li>
+<li>Thông báo về quyền hạn của STAFF</li>
+<li>Nhắc nhở không được phép xóa dữ liệu</li>
+</ul>
+<p>&nbsp;</p>
+<h3>5.3. Cấu trúc mỗi tab</h3>
+<p>&nbsp;</p>
+<p><strong>Các thành phần chung</strong>:</p>
+<ol>
+<li>&lt;strong&gt;Panel tìm kiếm và lọc&lt;/strong&gt; (ở trên):</li>
+</ol>
+<ul>
+<li>Ô tìm kiếm với nút &quot;🔍 Tìm&quot;</li>
+<li>Các dropdown filter</li>
+<li>Nút &quot;Xóa bộ lọc&quot;</li>
+</ul>
+<p>&nbsp;</p>
+<ol>
+<li>&lt;strong&gt;Bảng dữ liệu&lt;/strong&gt; (ở giữa):</li>
+</ol>
+<ul>
+<li>Hiển thị dữ liệu dạng bảng</li>
+<li>Có thể cuộn khi dữ liệu nhiều</li>
+<li>Chọn một dòng để thao tác</li>
+</ul>
+<p>&nbsp;</p>
+<ol>
+<li>&lt;strong&gt;Panel nút chức năng&lt;/strong&gt; (ở dưới):</li>
+</ol>
+<ul>
+<li>Nút &quot;Thêm&quot; (chỉ ADMIN)</li>
+<li>Nút &quot;Cập nhật&quot; (chỉ ADMIN)</li>
+<li>Nút &quot;Xóa&quot; (chỉ ADMIN)</li>
+<li>Các nút chức năng đặc biệt (tùy từng tab)</li>
+</ul>
+<p>&nbsp;</p>
+<h3>5.4. Dialog forms</h3>
+<p>&nbsp;</p>
+<p><strong>Đặc điểm chung</strong>:</p>
+<ul>
+<li>Popup dialog để thêm/sửa dữ liệu</li>
+<li>Form validation rõ ràng</li>
+<li>Hiển thị lỗi ngay tại trường bị sai</li>
+<li>Nút &quot;Lưu&quot; và &quot;Hủy&quot;</li>
+<li>Tự động đóng sau khi lưu thành công</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Các dialog</strong>:</p>
+<ul>
+<li>`CustomerDialog`: Thêm/sửa khách hàng</li>
+<li>`PetDialog`: Thêm/sửa thú cưng</li>
+<li>`CaretakerDialog`: Thêm/sửa nhân viên</li>
+<li>`ServiceDialog`: Thêm/sửa dịch vụ</li>
+<li>`ScheduleDialog`: Thêm/sửa lịch chăm sóc</li>
+</ul>
+<p>&nbsp;</p>
+<h3>5.5. Thông báo</h3>
+<p>&nbsp;</p>
+<p><strong>Các loại thông báo</strong>:</p>
+<ul>
+<li>&lt;strong&gt;Thông báo thành công&lt;/strong&gt;: Màu xanh, hiển thị khi thao tác thành công</li>
+<li>&lt;strong&gt;Thông báo lỗi&lt;/strong&gt;: Màu đỏ, hiển thị khi có lỗi</li>
+<li>&lt;strong&gt;Thông báo cảnh báo&lt;/strong&gt;: Màu vàng, hiển thị khi cần cảnh báo</li>
+<li>&lt;strong&gt;Dialog xác nhận&lt;/strong&gt;: Hiển thị khi cần xác nhận (xóa, đăng xuất)</li>
+</ul>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<h2>6. CÔNG NGHỆ SỬ DỤNG</h2>
+<p>&nbsp;</p>
+<h3>6.1. Ngôn ngữ lập trình</h3>
+<p>&nbsp;</p>
+<p><strong>Java 17+</strong>:</p>
+<ul>
+<li>Ngôn ngữ chính để phát triển ứng dụng</li>
+<li>Sử dụng các tính năng mới của Java 17 (records, switch expressions, etc.)</li>
+<li>Object-oriented programming</li>
+</ul>
+<p>&nbsp;</p>
+<h3>6.2. Framework và thư viện</h3>
+<p>&nbsp;</p>
+<p><strong>Java Swing</strong>:</p>
+<ul>
+<li>Framework xây dựng giao diện desktop</li>
+<li>Các component: JFrame, JDialog, JTable, JComboBox, JTextField, etc.</li>
+<li>Layout managers: BorderLayout, FlowLayout</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>SQLite JDBC Driver (3.45.2.0)</strong>:</p>
+<ul>
+<li>Kết nối và thao tác với database SQLite</li>
+<li>PreparedStatement để ngăn chặn SQL injection</li>
+</ul>
+<p>&nbsp;</p>
+<h3>6.3. Cơ sở dữ liệu</h3>
+<p>&nbsp;</p>
+<p><strong>SQLite</strong>:</p>
+<ul>
+<li>Database nhẹ, không cần cài đặt server</li>
+<li>File-based database</li>
+<li>Hỗ trợ foreign key constraints</li>
+<li>Tự động tạo file database khi chạy lần đầu</li>
+</ul>
+<p>&nbsp;</p>
+<h3>6.4. Công cụ phát triển</h3>
+<p>&nbsp;</p>
+<p><strong>Apache Maven</strong>:</p>
+<ul>
+<li>Quản lý dependencies</li>
+<li>Build và compile project</li>
+<li>Tạo JAR file</li>
+</ul>
+<p>&nbsp;</p>
+<p class="no-indent"><strong>IDE</strong>: IntelliJ IDEA, Eclipse, hoặc NetBeans</p>
+<p>&nbsp;</p>
+<h3>6.5. Design Patterns</h3>
+<p>&nbsp;</p>
+<ol>
+<li>&lt;strong&gt;Repository Pattern&lt;/strong&gt;: Tách biệt data access logic</li>
+<li>&lt;strong&gt;Service Pattern&lt;/strong&gt;: Tách biệt business logic</li>
+<li>&lt;strong&gt;Singleton Pattern&lt;/strong&gt;: Quản lý connection và authentication context</li>
+<li>&lt;strong&gt;DAO Pattern&lt;/strong&gt;: Data Access Object trong repository layer</li>
+<li>&lt;strong&gt;MVC Pattern&lt;/strong&gt;: Model-View-Controller trong Swing</li>
+</ol>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<h2>7. KẾT QUẢ ĐẠT ĐƯỢC</h2>
+<p>&nbsp;</p>
+<h3>7.1. Các tính năng đã hoàn thành</h3>
+<p>&nbsp;</p>
+<p>✅ <strong>Quản lý khách hàng</strong>:</p>
+<ul>
+<li>Thêm, sửa, xóa khách hàng</li>
+<li>Tìm kiếm và lọc</li>
+<li>Quản lý điểm tích lũy</li>
+<li>Xem thú cưng của khách hàng</li>
+</ul>
+<p>&nbsp;</p>
+<p>✅ <strong>Quản lý thú cưng</strong>:</p>
+<ul>
+<li>Thêm, sửa, xóa thú cưng</li>
+<li>Liên kết với khách hàng (bắt buộc)</li>
+<li>Gán nhân viên phụ trách</li>
+<li>Tìm kiếm và lọc đa tiêu chí</li>
+</ul>
+<p>&nbsp;</p>
+<p>✅ <strong>Quản lý nhân viên</strong>:</p>
+<ul>
+<li>Thêm, sửa, xóa nhân viên</li>
+<li>Tự động tạo tài khoản đăng nhập</li>
+<li>Đồng bộ thông tin với tài khoản</li>
+<li>Tìm kiếm và lọc</li>
+</ul>
+<p>&nbsp;</p>
+<p>✅ <strong>Quản lý dịch vụ</strong>:</p>
+<ul>
+<li>Thêm, sửa, xóa dịch vụ</li>
+<li>Quản lý giá cả và trạng thái</li>
+<li>Tìm kiếm và lọc theo nhiều tiêu chí</li>
+</ul>
+<p>&nbsp;</p>
+<p>✅ <strong>Quản lý lịch chăm sóc</strong>:</p>
+<ul>
+<li>Thêm, sửa, xóa lịch</li>
+<li>Lọc theo thời gian (hôm nay, tuần này, tháng này, chọn ngày)</li>
+<li>Sắp xếp theo ngày</li>
+<li>Tìm kiếm đa tiêu chí</li>
+</ul>
+<p>&nbsp;</p>
+<p>✅ <strong>Xác thực và phân quyền</strong>:</p>
+<ul>
+<li>Đăng nhập bằng username/password</li>
+<li>Phân quyền ADMIN và STAFF rõ ràng</li>
+<li>Bảo mật mật khẩu bằng SHA-256 hash</li>
+</ul>
+<p>&nbsp;</p>
+<p>✅ <strong>Tìm kiếm và lọc</strong>:</p>
+<ul>
+<li>Tìm kiếm không phân biệt hoa thường</li>
+<li>Lọc đa tiêu chí</li>
+<li>Kết hợp tìm kiếm và lọc</li>
+<li>Tự động cập nhật filter options</li>
+</ul>
+<p>&nbsp;</p>
+<h3>7.2. Giao diện người dùng</h3>
+<p>&nbsp;</p>
+<p>✅ <strong>Giao diện trực quan</strong>:</p>
+<ul>
+<li>Layout rõ ràng, dễ hiểu</li>
+<li>Màu sắc phân biệt vai trò</li>
+<li>Icon và emoji để dễ nhận biết</li>
+</ul>
+<p>&nbsp;</p>
+<p>✅ <strong>Tính năng UX</strong>:</p>
+<ul>
+<li>Validation form rõ ràng</li>
+<li>Thông báo lỗi dễ hiểu</li>
+<li>Hỗ trợ phím tắt</li>
+<li>Dialog forms thân thiện</li>
+</ul>
+<p>&nbsp;</p>
+<h3>7.3. Bảo mật</h3>
+<p>&nbsp;</p>
+<p>✅ <strong>Bảo mật mật khẩu</strong>:</p>
+<ul>
+<li>Hash bằng SHA-256 với salt</li>
+<li>Không lưu plaintext</li>
+<li>Mỗi mật khẩu có salt riêng</li>
+</ul>
+<p>&nbsp;</p>
+<p>✅ <strong>Phân quyền</strong>:</p>
+<ul>
+<li>Phân biệt rõ ràng ADMIN và STAFF</li>
+<li>Vô hiệu hóa các chức năng không được phép</li>
+<li>Kiểm tra quyền trước mỗi thao tác</li>
+</ul>
+<p>&nbsp;</p>
+<p>✅ <strong>SQL Injection Prevention</strong>:</p>
+<ul>
+<li>Sử dụng PreparedStatement</li>
+<li>Không dùng string concatenation cho SQL</li>
+</ul>
+<p>&nbsp;</p>
+<h3>7.4. Hiệu năng</h3>
+<p>&nbsp;</p>
+<p>✅ <strong>Phản hồi nhanh</strong>:</p>
+<ul>
+<li>Tìm kiếm trả về kết quả trong 1 giây</li>
+<li>Các thao tác thông thường trong 2 giây</li>
+<li>Tối ưu hóa query database</li>
+</ul>
+<p>&nbsp;</p>
+<h3>7.5. Tính ổn định</h3>
+<p>&nbsp;</p>
+<p>✅ <strong>Xử lý lỗi</strong>:</p>
+<ul>
+<li>Try-catch cho các thao tác database</li>
+<li>Hiển thị thông báo lỗi rõ ràng</li>
+<li>Không crash khi có lỗi</li>
+</ul>
+<p>&nbsp;</p>
+<p>✅ <strong>Validation</strong>:</p>
+<ul>
+<li>Kiểm tra dữ liệu đầu vào</li>
+<li>Ngăn chặn dữ liệu không hợp lệ</li>
+<li>Thông báo lỗi cụ thể</li>
+</ul>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<h2>8. KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN</h2>
+<p>&nbsp;</p>
+<h3>8.1. Kết luận</h3>
+<p>&nbsp;</p>
+<p>Qua quá trình nghiên cứu và phát triển, em đã hoàn thành hệ thống quản lý trại thú cưng với đầy đủ các tính năng cơ bản:</p>
+<p>&nbsp;</p>
+<ol>
+<li>&lt;strong&gt;Quản lý toàn diện&lt;/strong&gt;: Hệ thống quản lý đầy đủ thông tin khách hàng, thú cưng, nhân viên, dịch vụ và lịch chăm sóc.</li>
+</ol>
+<p>&nbsp;</p>
+<ol>
+<li>&lt;strong&gt;Phân quyền rõ ràng&lt;/strong&gt;: Hệ thống phân quyền ADMIN và STAFF giúp bảo vệ dữ liệu và đảm bảo an toàn.</li>
+</ol>
+<p>&nbsp;</p>
+<ol>
+<li>&lt;strong&gt;Tìm kiếm và lọc mạnh mẽ&lt;/strong&gt;: Tính năng tìm kiếm và lọc đa tiêu chí giúp người dùng tìm thông tin nhanh chóng.</li>
+</ol>
+<p>&nbsp;</p>
+<ol>
+<li>&lt;strong&gt;Giao diện thân thiện&lt;/strong&gt;: Giao diện trực quan, dễ sử dụng, phù hợp với cả người dùng không chuyên.</li>
+</ol>
+<p>&nbsp;</p>
+<ol>
+<li>&lt;strong&gt;Bảo mật tốt&lt;/strong&gt;: Hệ thống bảo mật mật khẩu và ngăn chặn các lỗ hổng bảo mật phổ biến.</li>
+</ol>
+<p>&nbsp;</p>
+<p><strong>Những điểm mạnh</strong>:</p>
+<ul>
+<li>Kiến trúc rõ ràng, dễ bảo trì</li>
+<li>Code được tổ chức tốt, dễ đọc</li>
+<li>Tính năng đầy đủ cho nhu cầu cơ bản</li>
+<li>Giao diện thân thiện</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Những hạn chế</strong>:</p>
+<ul>
+<li>Chưa có báo cáo và thống kê tự động</li>
+<li>Chưa có tính năng backup tự động</li>
+<li>Chưa hỗ trợ đa người dùng đồng thời</li>
+<li>Chưa có audit log</li>
+</ul>
+<p>&nbsp;</p>
+<h3>8.2. Hướng phát triển</h3>
+<p>&nbsp;</p>
+<p>Trong tương lai, hệ thống có thể được mở rộng với các tính năng:</p>
+<p>&nbsp;</p>
+<ol>
+<li>&lt;strong&gt;Báo cáo và thống kê&lt;/strong&gt;:</li>
+</ol>
+<ul>
+<li>Báo cáo doanh thu theo tháng/năm</li>
+<li>Thống kê số lượng khách hàng, thú cưng</li>
+<li>Biểu đồ trực quan hóa dữ liệu</li>
+</ul>
+<p>&nbsp;</p>
+<ol>
+<li>&lt;strong&gt;Xuất dữ liệu&lt;/strong&gt;:</li>
+</ol>
+<ul>
+<li>Xuất danh sách ra Excel</li>
+<li>In báo cáo ra PDF</li>
+<li>Export/Import dữ liệu</li>
+</ul>
+<p>&nbsp;</p>
+<ol>
+<li>&lt;strong&gt;Tính năng nâng cao&lt;/strong&gt;:</li>
+</ol>
+<ul>
+<li>Đặt lịch dịch vụ (Service Booking)</li>
+<li>Quản lý lịch làm việc nhân viên (Work Schedule)</li>
+<li>Thông báo và nhắc nhở tự động</li>
+<li>Tìm kiếm nâng cao với full-text search</li>
+</ul>
+<p>&nbsp;</p>
+<ol>
+<li>&lt;strong&gt;Cải tiến kỹ thuật&lt;/strong&gt;:</li>
+</ol>
+<ul>
+<li>Unit tests và integration tests</li>
+<li>Logging framework</li>
+<li>Configuration file</li>
+<li>Multi-language support</li>
+<li>Theme customization</li>
+</ul>
+<p>&nbsp;</p>
+<ol>
+<li>&lt;strong&gt;Mở rộng platform&lt;/strong&gt;:</li>
+</ol>
+<ul>
+<li>Ứng dụng web</li>
+<li>Ứng dụng di động</li>
+<li>API cho tích hợp với hệ thống khác</li>
+</ul>
+<p>&nbsp;</p>
+<h3>8.3. Bài học kinh nghiệm</h3>
+<p>&nbsp;</p>
+<p>Qua quá trình thực hiện bài tập, em đã học được:</p>
+<p>&nbsp;</p>
+<ol>
+<li>&lt;strong&gt;Kỹ năng lập trình&lt;/strong&gt;: Nâng cao kỹ năng Java, Swing, SQLite</li>
+<li>&lt;strong&gt;Thiết kế hệ thống&lt;/strong&gt;: Hiểu về kiến trúc 3-layer, design patterns</li>
+<li>&lt;strong&gt;Phân tích yêu cầu&lt;/strong&gt;: Xác định và phân tích yêu cầu nghiệp vụ</li>
+<li>&lt;strong&gt;Quản lý dự án&lt;/strong&gt;: Lập kế hoạch, tổ chức code, quản lý thời gian</li>
+<li>&lt;strong&gt;Debugging&lt;/strong&gt;: Kỹ năng tìm và sửa lỗi</li>
+</ol>
+<p>&nbsp;</p>
+<h3>8.4. Lời cảm ơn</h3>
+<p>&nbsp;</p>
+<p>Em xin chân thành cảm ơn thầy/cô đã hướng dẫn và tạo điều kiện để em hoàn thành bài tập này. Bài tập đã giúp em củng cố kiến thức và nâng cao kỹ năng lập trình.</p>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<h2>9. TÀI LIỆU THAM KHẢO</h2>
+<p>&nbsp;</p>
+<ol>
+<li>Oracle Corporation. (2024). &lt;em&gt;Java Platform, Standard Edition Documentation&lt;/em&gt;. https://docs.oracle.com/javase/</li>
+</ol>
+<p>&nbsp;</p>
+<ol>
+<li>Oracle Corporation. (2024). &lt;em&gt;Java Swing Tutorial&lt;/em&gt;. https://docs.oracle.com/javase/tutorial/uiswing/</li>
+</ol>
+<p>&nbsp;</p>
+<ol>
+<li>SQLite. (2024). &lt;em&gt;SQLite Documentation&lt;/em&gt;. https://www.sqlite.org/docs.html</li>
+</ol>
+<p>&nbsp;</p>
+<ol>
+<li>Apache Software Foundation. (2024). &lt;em&gt;Apache Maven Documentation&lt;/em&gt;. https://maven.apache.org/guides/</li>
+</ol>
+<p>&nbsp;</p>
+<ol>
+<li>Xerial. (2024). &lt;em&gt;SQLite JDBC Driver&lt;/em&gt;. https://github.com/xerial/sqlite-jdbc</li>
+</ol>
+<p>&nbsp;</p>
+<ol>
+<li>Gamma, E., Helm, R., Johnson, R., &amp; Vlissides, J. (1994). &lt;em&gt;Design Patterns: Elements of Reusable Object-Oriented Software&lt;/em&gt;. Addison-Wesley.</li>
+</ol>
+<p>&nbsp;</p>
+<ol>
+<li>Fowler, M. (2002). &lt;em&gt;Patterns of Enterprise Application Architecture&lt;/em&gt;. Addison-Wesley.</li>
+</ol>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<p><strong>Hết báo cáo</strong></p>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<p><em>Báo cáo này được thực hiện bởi sinh viên trong khuôn khổ bài tập lớn môn Lập trình Giao diện, năm học 2024-2025.</em></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+</body>
+</html>
